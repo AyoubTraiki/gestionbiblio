@@ -37,7 +37,7 @@ public class LivreController {
         return livreService.getLivreById(id);
     }
     @PostMapping("/save")
-    public String saveCourse(@RequestBody Livre livre) {
+    public String saveLivre(@RequestBody Livre livre) {
         // save book to database
         livreService.saveLivre(livre);
         return "book saved";
