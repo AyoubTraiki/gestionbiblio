@@ -23,8 +23,8 @@ public class GestionbibliothequeApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		livreService.saveLivre(new Livre(null,"title","maison",new Date(),"auteur","123","12336512",new Date(),true));
-		livreService.saveLivre(new Livre(null,"title2","maison2",new Date(),"auteur2","140","123366552",new Date(),true));
+		//livreService.saveLivre(new Livre(null,"title","maison",new Date(),"auteur","123","12336512",new Date(),true));
+		//livreService.saveLivre(new Livre(null,"title2","maison2",new Date(),"auteur2","140","123366552",new Date(),true));
 
 		
 	}

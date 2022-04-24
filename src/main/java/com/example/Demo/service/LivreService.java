@@ -27,11 +27,7 @@ public class LivreService {
         livreRepos.save(l);
     }
 
-    public void updateLivre(Livre l){
-        livreRepos.save(l);
-    }
-
-    public void deleteLivre(Livre l){
-        livreRepos.delete(l);
+    public void deleteLivre(Long l){
+        livreRepos.deleteById(l);
     }
 }
